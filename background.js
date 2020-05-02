@@ -69,19 +69,15 @@ var ensureTabIsOnURL = function(url){
 var setupURLMonitoring = function(){
   chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
     if (changeInfo.status == 'complete' && tab.status == 'complete' && tab.url != undefined) {
-      if (tabId == c_sesh.tab.id) {
-        console.log("main tab change")
-        console.log("tab change: " + JSON.stringify(c_sesh.tab));
-        injectWanderScripts();
-      } else {
-        console.log("other tab change");
-        getTabOfID(tabId).then(function(tabs){
-          c_sesh.tab = tabs[0];
-          return tabs[0];
-        }).then(function(){
-          return injectWanderScripts();
-        });
-      }
+      console.log("tab change");
+      getTabOfID(tabId).then(function(tabs){
+        c_sesh.tab = tabs[0];
+        return tabs[0];
+      })
+      .then(() => new Promise(resolve => setTimeout(resolve, 5000)))
+      .then(function(){
+        return injectWanderScripts();
+      });
     }
   });
 };
