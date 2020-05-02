@@ -16,6 +16,6 @@ https://developer.chrome.com/extensions/getstarted#unpacked
 
 ![inspecting-background.png](inspecting-background.png)
 
-4. You then need to go to your first jitsi room e.g. (https://meet.jit.si/seniorhouseexample)[https://meet.jit.si/seniorhouseexample], and hit the "R" button in the browser.
+4. You then need to go to your first jitsi room e.g. [https://meet.jit.si/seniorhouseexample](https://meet.jit.si/seniorhouseexample), and hit the "R" button in the browser.
 
 **NOTE:** If there are multiple people in the room, you have to hit the "R" button a few times.
