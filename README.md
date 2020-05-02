@@ -2,7 +2,7 @@ chrome extension to wander public spaces at roast.
 
 # Using the extension
 
-1. Download or clone
+1. Download or clone this repo
 2. Follow these instructions to add the extension folder to chrome
 
 ![adding-unpacked-extension.png](adding-unpacked-extension.png)
@@ -10,7 +10,7 @@ chrome extension to wander public spaces at roast.
 Reproduced from..
 https://developer.chrome.com/extensions/getstarted#unpacked
 
-3. You (might? I'm not sure) if need to open the `roast wander` "Background Page" from the `chrome://extensions/` page.
+3. You (might? I'm not sure) need to open the `roast wander` "Background Page" from the `chrome://extensions/` page.
 
 [Otherwise, we can't maintain state between jitsi pages to keep going if there's nobody in the room. (I think?) Try, and give a pull request or let me know!]
 
