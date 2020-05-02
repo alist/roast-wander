@@ -25,9 +25,13 @@ var isMeetingSuitable = function() {
 };
 
 var wander = function() {
-  if (isMeetingSuitable() && window.alreadyHereOnce == false) {
-    console.log("you got your room!")
-     window.alreadyHereOnce = true;
+  if (isMeetingSuitable() && window.alreadyHereOnce != 0) {
+    if (window.alreadyHereOnce == undefined) {
+      window.alreadyHereOnce = 3;
+    } else {
+       window.alreadyHereOnce =  window.alreadyHereOnce - 1;
+    }
+    console.log("you got your room! tap " + window.alreadyHereOnce)
     return
   }
   var index = currentRoomIndex();
