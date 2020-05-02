@@ -24,7 +24,6 @@ var isMeetingSuitable = function() {
   return false;
 };
 
-window.alreadyHereOnce = false;
 var wander = function() {
   if (isMeetingSuitable() && window.alreadyHereOnce == false) {
     console.log("you got your room!")
