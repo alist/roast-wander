@@ -1,14 +1,12 @@
 chrome extension to wander public spaces at roast.
 
-# Loading the extension
+# Using the extension
+
+1. Download or clone 
+2. Follow these instructions to add the files to chrome
 
 https://developer.chrome.com/extensions/getstarted#unpacked
 
-# Using it
+3. First you need to open the roast wander "Background Page" from the `chrome://extensions/` page. Otherwise, we can't maintain state between jitsi pages to keep going if there's nobody in the room. (I think)
 
-## Before using it
-First you need to open the roast wander "Background Page" from the `chrome://extensions/` page. Otherwise, we can't maintain state between jitsi pages.
-
-## Using it
-
-You then need to go to your first jitsi video, and hit the button in the browser.
+4. You then need to go to your first jitsi room, and hit the button in the browser. If there are multiple people in the room, you have to hit the "R" button a few times.
