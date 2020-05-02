@@ -1,0 +1,14 @@
+node_modules
+build
+logs
+pushCerts
+
+.vscode
+.c9revisions
+npm-debug.log
+*.swp
+*.swo
+*.swq
+.DS_Store
+.idea
+*.log
