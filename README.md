@@ -5,7 +5,7 @@ chrome extension to wander public spaces at roast.
 1. Download or clone
 2. Follow these instructions to add the extension folder to chrome
 
-!(adding-unpacked-extension.png)[adding-unpacked-extension.png]
+![adding-unpacked-extension.png](adding-unpacked-extension.png)
 
 Reproduced from..
 https://developer.chrome.com/extensions/getstarted#unpacked
